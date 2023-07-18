@@ -10,6 +10,7 @@ a {
     text-decoration: none;
     color: #000;
     font-weight: 700;
+    margin-right: 30px;
     transition: all 0.5s ease;
 }
 a:hover{
