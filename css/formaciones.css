@@ -1,0 +1,44 @@
+.formaciones{
+    background: #F5F5F5;
+}
+
+.formaciones__titulo{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.formaciones__tarjeta{
+    height: 350px;
+    width: 300px;
+    background: #8C8CFC;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@media screen and (min-width: 0) {
+    .formaciones{
+        height: 1300px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .formaciones{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

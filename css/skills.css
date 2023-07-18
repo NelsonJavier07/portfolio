@@ -1,0 +1,139 @@
+.skills{
+    /* height: 900px;
+    width: 100%; */
+    background-color: rgb(140, 140, 252);
+    text-align: center;
+}
+
+.skills__titulo {
+    font-size: 2.5rem;
+    padding-top: 5rem;
+}
+
+.skills__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.skills__cards {
+    height: 220px;
+    width: 280px;
+    background-color: #f5f5f5;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+.skills__cards-barberia {
+    background-image: url(../img/barberia-alura2-proyecto.jpg);
+    background-size:cover;
+    transition: 0.8s;
+}
+.skills__cards-barberia:hover {
+    transform: scale(1.1);
+    transition: 0.8s;
+    box-shadow: 0 5px 10px #0000;
+    cursor: pointer;
+}
+
+.skills__cards-encriptador {
+    background-image: url(../img/encriptador-proyecto.jpg);
+    background-size:cover;
+    background-position: center;
+    transition: 0.8s;
+}
+.skills__cards-encriptador:hover {
+    transform: scale(1.1);
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.skills__cards-toDoList {
+    background-image: url(../img/to-do-list-proyecto.jpg);
+    background-size:cover;
+    background-position: center;
+    transition: 0.8s;
+}
+.skills__cards-toDoList:hover {
+    transform: scale(1.1);
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.skills__cards-weather-channel {
+    background-image: url(../img/weather-channel-proyecto.jpg);
+    background-size:cover;
+    background-position: center;
+    transition: 0.8s;
+}
+.skills__cards-weather-channel:hover {
+    transform: scale(1.1);
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.skills__cards-formularioContacto {
+    background-image: url(../img/formulario-contacto-proyecto.jpg);
+    background-size:cover;
+    background-position: center;
+    transition: 0.8s;
+}
+.skills__cards-formularioContacto:hover {
+    transform: scale(1.1);
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.skills__cards-formularioColegio {
+    background-image: url(../img/incripciones-virtuales-colegio-proyecto2.jpg);
+    background-size:cover;
+    background-position: center;
+    transition: 0.8s;
+}
+.skills__cards-formularioColegio:hover {
+    transform: scale(1.1);
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+
+.skills__cards-colorGame {
+    background-image: url(../img/color-game-proyecto.jpg);
+    background-size:cover;
+    background-position: center;
+    transition: 0.8s;
+}
+.skills__cards-colorGame:hover {
+    transform: scale(1.1);
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 0) {
+    .skills{
+        height: 2000px;
+        width: 100%;
+        background-color: rgb(140, 140, 252);
+        text-align: center;
+    }
+    .skills__titulo {
+        font-size: 1.8rem;
+        padding-top: 3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .skills{
+        height: 900px;
+        width: 100%;
+        background-color: rgb(140, 140, 252);
+        text-align: center;
+    }
+    .skills__titulo {
+        font-size: 2.5rem;
+        padding-top: 5rem;
+    }
+}

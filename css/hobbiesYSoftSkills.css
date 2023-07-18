@@ -1,0 +1,66 @@
+.softskills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #F5F5F5;
+}
+
+.softskills__container{
+    position: relative;
+    width: 300px;
+    height: 350px;
+}
+
+.softskills__card{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.softskills__card-front{
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+
+.softskills__card-front h3{
+    font-size: 1rem;
+    margin-top: 20px;
+    letter-spacing: 1.5px;
+}
+
+.softskills__card-front p{
+    letter-spacing: 1px;
+}
+
+.softskills__imagen{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.softskills__card-back{
+    transform: perspective(600px) rotateY(180deg);
+    background: #8C8CFC;
+    padding: 15px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+}
+
+.softskills__card:hover .softskills__card-front{
+    transform: perspective(600px) rotateY(180deg);
+}
+.softskills__card:hover .softskills__card-back{
+    transform: perspective(600px) rotateY(360deg);
+}
+
+
+
+

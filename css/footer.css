@@ -1,0 +1,121 @@
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(12, 0, 80);
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+}
+
+.footer__titulo{
+    color: white;
+    font-size: 2.5rem;
+}
+.footer__sociales{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__sociales-icon{
+    list-style: none;
+    margin-right: 1.4rem;
+}
+
+.icon-facebook2 {
+    content: "\ea91";
+    font-size: 2.8rem;
+    color: white;
+    transition: 0.4s;
+}
+.icon-facebook2:hover {
+    font-size: 3rem;
+    color:  #8C8CFC;
+    transition: 0.4s;
+}
+
+.icon-instagram {
+    content: "\ea92";
+    font-size: 2.8rem;
+    color: white;
+    transition: 0.4s;
+}
+.icon-instagram:hover{
+    font-size: 3rem;
+    color:  #8C8CFC;
+    transition: 0.4s;
+}
+
+.icon-github {
+    content: "\eab0";
+    font-size: 2.8rem;
+    color: white;
+    transition: 0.4s;
+}
+.icon-github:hover {
+    font-size: 3rem;
+    color:  #8C8CFC;
+    transition: 0.4s;
+}
+
+.icon-linkedin {
+    content: "\eac9";
+    font-size: 2.8rem;
+    color: white;
+    transition: 0.4s;
+}
+.icon-linkedin:hover {
+    font-size: 3rem;
+    color:  #8C8CFC;
+    transition: 0.4s;
+}
+
+.icon-mail {
+    content: "\ea83";
+    font-size: 2.8rem;
+    color: white;
+    transition: 0.4s;
+}
+.icon-mail:hover{
+    font-size: 3rem;
+    color:  #8C8CFC;
+    transition: 0.4s;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 0) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .footer__titulo{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .footer__titulo{
+        font-size: 2.2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .footer__titulo{
+        font-size: 2.5rem;
+    }
+}
