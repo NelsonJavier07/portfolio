@@ -1,10 +1,6 @@
 .footer{
-    height: 300px;
     width: 100%;
     background-color: rgb(12, 0, 80);
-    /* display: flex;
-    justify-content: space-around;
-    align-items: center; */
 }
 
 .footer__titulo{
@@ -22,60 +18,50 @@
 
 .icon-facebook2 {
     content: "\ea91";
-    font-size: 2.8rem;
     color: white;
     transition: 0.4s;
 }
 .icon-facebook2:hover {
-    font-size: 3rem;
     color:  #8C8CFC;
     transition: 0.4s;
 }
 
 .icon-instagram {
     content: "\ea92";
-    font-size: 2.8rem;
     color: white;
     transition: 0.4s;
 }
 .icon-instagram:hover{
-    font-size: 3rem;
     color:  #8C8CFC;
     transition: 0.4s;
 }
 
 .icon-github {
     content: "\eab0";
-    font-size: 2.8rem;
     color: white;
     transition: 0.4s;
 }
 .icon-github:hover {
-    font-size: 3rem;
     color:  #8C8CFC;
     transition: 0.4s;
 }
 
 .icon-linkedin {
     content: "\eac9";
-    font-size: 2.8rem;
     color: white;
     transition: 0.4s;
 }
 .icon-linkedin:hover {
-    font-size: 3rem;
     color:  #8C8CFC;
     transition: 0.4s;
 }
 
 .icon-mail {
     content: "\ea83";
-    font-size: 2.8rem;
     color: white;
     transition: 0.4s;
 }
 .icon-mail:hover{
-    font-size: 3rem;
     color:  #8C8CFC;
     transition: 0.4s;
 }
@@ -86,6 +72,7 @@ a {
 
 @media screen and (min-width: 0) {
     .footer {
+        height: 170px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -94,10 +81,47 @@ a {
     .footer__titulo{
         font-size: 2rem;
     }
+
+    .icon-facebook2 {
+        font-size: 1.8rem;
+    }
+    .icon-facebook2:hover {
+        font-size: 2rem;
+    }
+
+    .icon-instagram {
+        font-size: 1.8rem;
+    }
+    .icon-instagram:hover{
+        font-size: 2rem;
+    }
+
+    .icon-github {
+        font-size: 1.8rem;
+    }
+    .icon-github:hover {
+        font-size: 2rem;
+    }
+
+    .icon-linkedin {
+        font-size: 1.8rem;
+    }
+    .icon-linkedin:hover {
+        font-size: 2rem;
+    }
+
+    .icon-mail {
+        font-size: 1.8rem;
+    }
+    .icon-mail:hover{
+        font-size: 2rem;
+    }
+    
 }
 
 @media screen and (min-width: 667px) {
     .footer {
+        height: 200px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -106,10 +130,46 @@ a {
     .footer__titulo{
         font-size: 2.2rem;
     }
+
+    .icon-facebook2 {
+        font-size: 2rem;
+    }
+    .icon-facebook2:hover {
+        font-size: 2.3rem;
+    }
+
+    .icon-instagram {
+        font-size: 2rem;
+    }
+    .icon-instagram:hover{
+        font-size: 2.3rem;
+    }
+
+    .icon-github {
+        font-size: 2rem;
+    }
+    .icon-github:hover {
+        font-size: 2.3rem;
+    }
+
+    .icon-linkedin {
+        font-size: 2rem;
+    }
+    .icon-linkedin:hover {
+        font-size: 2.3rem;
+    }
+
+    .icon-mail {
+        font-size: 2rem;
+    }
+    .icon-mail:hover{
+        font-size: 2.3rem;
+    }
 }
 
 @media screen and (min-width: 768px) {
     .footer {
+        height: 300px;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -117,5 +177,39 @@ a {
     }
     .footer__titulo{
         font-size: 2.5rem;
+    }
+    .icon-facebook2 {
+        font-size: 2.8rem;
+    }
+    .icon-facebook2:hover {
+        font-size: 3rem;
+    }
+
+    .icon-instagram {
+        font-size: 2.8rem;
+    }
+    .icon-instagram:hover{
+        font-size: 3rem;
+    }
+
+    .icon-github {
+        font-size: 2.8rem;
+    }
+    .icon-github:hover {
+        font-size: 3rem;
+    }
+
+    .icon-linkedin {
+        font-size: 2.8rem;
+    }
+    .icon-linkedin:hover {
+        font-size: 3rem;
+    }
+
+    .icon-mail {
+        font-size: 2.8rem;
+    }
+    .icon-mail:hover{
+        font-size: 3rem;
     }
 }

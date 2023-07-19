@@ -47,7 +47,7 @@
         <section class="banner scrollBanner">
             <div class="banner__container">
                 <h2 class="banner__nombre">Hola soy Nelson, estudiante de programacion Web</h2>
-                <h3 class="banner__descripcionPequeña">Me estoy formando en lenguajes como: HTML, CSS, JavaScript, entre
+                <h3 class="banner__descripcionPequeña">Me estoy formando en técnologias como: HTML, CSS, JavaScript, entre
                     otros.<br>Actualmente estoy en capacitación del programa Alura ONE de Oracle </h3>
                 <a class="banner__sociales" href="https://www.facebook.com/nelsonjaviers1" target="_blank">facebook</a>
                 <a class="banner__sociales" href="https://www.instagram.com/nelsonjavier633/" target="_blank">instagram</a>
@@ -188,10 +188,10 @@
                 <h2 class="formulario__titulo">FORMULARIO DE CONTACTO</h2>
                 <h3 class="formulario__mensaje">contactame</h3>
                 <form class="formulario__form" action="">
-                    <input class="formulario__campo formulario__inNombre" type="text" placeholder="Nombre">
-                    <input class="formulario__campo formulario__inAsunto" type="text" placeholder="Asunto">
-                    <input class="formulario__campo formulario__inEmail" type="email" placeholder="Email de contacto">
-                    <textarea class="formulario__inMensaje" name="" placeholder="Mensaje">
+                    <input class="formulario__campo formulario__inNombre" type="text" placeholder="Nombre" pattern="[\s\S]{4, 35}" data-type="Nombre">
+                    <input class="formulario__campo formulario__inAsunto" type="text" placeholder="Asunto" pattern="[\s\S]{4, 40}" data-type="Asunto">
+                    <input class="formulario__campo formulario__inEmail" type="email" placeholder="Email de contacto" pattern="" data-type="Email">
+                    <textarea class="formulario__inMensaje" name="" placeholder="Mensaje" data-type="Mensaje">
                     </textarea>
                     <input class="formulario__boton" type="submit" name="ENVIAR">
                 </form>
@@ -220,6 +220,7 @@
         </div>
     </section>
     <script src="./js/scriptScrollreveal.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
