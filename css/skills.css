@@ -25,6 +25,9 @@
     text-align: center;
     margin-top: 40px;
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .skills__cards-barberia {
@@ -37,6 +40,21 @@
     transition: 0.8s;
     box-shadow: 0 5px 10px #0000;
     cursor: pointer;
+}
+
+.skills__botonAcceso a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: 0.5s;
+}
+.skills__botonAcceso a:hover {
+    display: block;
+    width: 15rem;
+    height: 1.5rem;
+    background-color: #8C8CFC;
+    border-radius: 7px;
+    transition: 0.5s;
 }
 
 .skills__cards-encriptador {

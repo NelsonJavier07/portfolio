@@ -72,11 +72,14 @@
                 Actualmente me estoy formando como desarrollador Web Front-End
                 me fascina todo lo que se puede crear con unas lineas de texto.
                 Mi escuela secundaria estaba orientada a la contabilidad, pero no fue ese el camino que
-                tome. <br>
+                tome. 
+                <br>
+
                 Comprometido, autodidacta, curioso del porque de las cosas cotidianas,
                 siempre intentado establer el origen de cada una de ellas.
                 Tuve experiencias de trabajos en comercios en la parte administrativa,
-                estableciendo buenas relaciones labotales como amistades. <br>
+                estableciendo buenas relaciones labotales como amistades. 
+                <br>
                 El tiempo y mi estudio fue llevandome para otras areas, al terminar mi carrera
                 y obtener mi titulo de analista en sistemas, comence a trabajar como
                 docente en un colegio secundario, siendo una buena experiencia de aprendizaje de manejo de grupo.
@@ -92,25 +95,27 @@
 
             <div class="skills__container">
                 <div class="skills__cards skills__cards-barberia">
-                    Peluqueria Alura
+                    <span class="skills__botonAcceso"><a href="https://nelsonjavier07.github.io/barberia-alura-ejercicio/" target="_blank">Peluqueria Alura</a></span>
                 </div>
                 <div class="skills__cards skills__cards-encriptador">
-                    Encriptador
+                    <span class="skills__botonAcceso"><a href="https://nelsonjavier07.github.io/Encriptador-alura-oracle/" target="_blank">Encriptador</a></span>
                 </div>
                 <div class="skills__cards skills__cards-toDoList">
-                    To Do List
+                    <span class="skills__botonAcceso"><a href="https://nelsonjavier07.github.io/To-Do-List-P5/" target="_blank">To Do List</a></span>
                 </div>
                 <div class="skills__cards skills__cards-weather-channel">
-                    Wheather Chanell
+                    <span class="skills__botonAcceso"><a href="https://nelsonjavier07.github.io/proyecto-weather-channel-p5/" target="_blank">Wheather Chanell</a></span>
                 </div>
                 <div class="skills__cards skills__cards-formularioContacto">
-                    Contact Form
+                    <span class="skills__botonAcceso"><a href="https://nelsonjavier07.github.io/formulario-ejercicio-veterinaria/" target="_blank">Contact Form</a></span>
                 </div>
                 <div class="skills__cards skills__cards-formularioColegio">
-                    Contact Form Colegio
+                    <span class="skills__botonAcceso"><a href="" target="_blank">Contact Form Colegio</a></span>
+                    
                 </div>
                 <div class="skills__cards skills__cards-colorGame">
-                    Color Game
+                    <span class="skills__botonAcceso"><a href="https://nelsonjavier07.github.io/color_game/" target="_blank">Color Game</a></span>
+                    
                 </div>
             </div>
         
@@ -183,20 +188,25 @@
         </section>
 
                                     <!--FORMULARIO DE CONTACTO-->
-        <section class="formulario scrollFormulario">
-            <div class="formulario__container">
-                <h2 class="formulario__titulo">FORMULARIO DE CONTACTO</h2>
-                <h3 class="formulario__mensaje">contactame</h3>
-                <form class="formulario__form" action="">
-                    <input class="formulario__campo formulario__inNombre" type="text" placeholder="Nombre" pattern="[\s\S]{4, 35}" data-type="Nombre">
-                    <input class="formulario__campo formulario__inAsunto" type="text" placeholder="Asunto" pattern="[\s\S]{4, 40}" data-type="Asunto">
-                    <input class="formulario__campo formulario__inEmail" type="email" placeholder="Email de contacto" pattern="" data-type="Email">
-                    <textarea class="formulario__inMensaje" name="" placeholder="Mensaje" data-type="Mensaje">
-                    </textarea>
-                    <input class="formulario__boton" type="submit" name="ENVIAR">
-                </form>
-            </div>
-        </section>
+        <fieldset>
+            <section class="formulario scrollFormulario">
+                <div class="formulario__container">
+                    <h2 class="formulario__titulo">FORMULARIO DE CONTACTO</h2>
+                    <h3 class="formulario__mensaje">contactame</h3>
+                    <form class="formulario__form" action="">
+                        <input class="formulario__campo formulario__inNombre" type="text" placeholder="Nombre"
+                            pattern="[\s\S]{4, 35}" data-type="Nombre" required>
+                        <input class="formulario__campo formulario__inAsunto" type="text" placeholder="Asunto"
+                            pattern="[\s\S]{4, 40}" data-type="Asunto" required>
+                        <input class="formulario__campo formulario__inEmail" type="email" placeholder="Email de contacto"
+                            pattern="" data-type="Email" required>
+                        <textarea class="formulario__inMensaje" name="" placeholder="Mensaje" data-type="Mensaje" required>
+                            </textarea>
+                        <input class="formulario__boton" type="submit" name="ENVIAR">
+                    </form>
+                </div>
+            </section>
+        </fieldset>
             
 
     </main>
