@@ -1,10 +1,4 @@
-/* .softskills{
-    height: 700px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-} */
+
 .cardSkills{
     position: relative;
     width: 300px;
@@ -25,6 +19,9 @@
     backface-visibility: hidden;
     border-radius: 7px;
     transition: 1s;
+}
+.cardSkills__descripcion{
+    padding: 0 0.5rem 0 0.5rem;
 }
 
 .cardSkills .cardSkills__front{
