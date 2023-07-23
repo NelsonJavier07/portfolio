@@ -30,18 +30,6 @@
     align-items: center;
 }
 
-.skills__cards-barberia {
-    background-image: url(../img/barberia-alura2-proyecto.jpg);
-    background-size:cover;
-    transition: 0.8s;
-}
-.skills__cards-barberia:hover {
-    transform: scale(1.1);
-    transition: 0.8s;
-    box-shadow: 0 5px 10px #0000;
-    cursor: pointer;
-}
-
 .skills__botonAcceso a {
     color: black;
     text-decoration: none;
@@ -55,6 +43,19 @@
     background-color: #8C8CFC;
     border-radius: 7px;
     transition: 0.5s;
+}
+
+
+.skills__cards-barberia {
+    background-image: url(../img/barberia-alura2-proyecto.jpg);
+    background-size:cover;
+    transition: 0.8s;
+}
+.skills__cards-barberia:hover {
+    transform: scale(1.1);
+    transition: 0.8s;
+    box-shadow: 0 5px 10px #0000;
+    cursor: pointer;
 }
 
 .skills__cards-encriptador {
